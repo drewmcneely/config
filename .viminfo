@@ -20,6 +20,8 @@
 $
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1576374649,,"q"
 :qa
 |2,0,1576373352,,"qa"
 :w
@@ -28,8 +30,6 @@ $
 |2,0,1576373264,,"e /usr/share/doc/bash-doc/examples/startup-files/Bash_aliases"
 :e .bashrc
 |2,0,1576373218,,"e .bashrc"
-:q
-|2,0,1576373187,,"q"
 :wq
 |2,0,1576372702,,"wq"
 :e Bash_profile
@@ -290,36 +290,176 @@ $
 |3,0,36,0,1,0,1576372661,"$"
 
 # File marks:
-'0  3  33  ~/.bash_aliases
-|4,48,3,33,1576373352,"~/.bash_aliases"
-'1  47  0  ~/.bashrc
-|4,49,47,0,1576373187,"~/.bashrc"
-'2  47  0  ~/.bashrc
-|4,50,47,0,1576373187,"~/.bashrc"
-'3  1  0  ~/.taskrc
-|4,51,1,0,1576373057,"~/.taskrc"
-'4  1  0  ~/.profile
-|4,52,1,0,1576372927,"~/.profile"
-'5  1  0  ~/.inputrc
-|4,53,1,0,1576372817,"~/.inputrc"
-'6  2  78  ~/.bash_aliases
-|4,54,2,78,1576372702,"~/.bash_aliases"
-'7  2  78  ~/.bash_aliases
-|4,55,2,78,1576372702,"~/.bash_aliases"
-'8  1  0  ~/.gitconfig
-|4,56,1,0,1576372404,"~/.gitconfig"
-'9  1  0  ~/.bashrc
-|4,57,1,0,1576372305,"~/.bashrc"
+'0  34  0  ~/.config/i3/config
+|4,48,34,0,1576374649,"~/.config/i3/config"
+'1  1  0  ~/.Xresources
+|4,49,1,0,1576374449,"~/.Xresources"
+'2  3  33  ~/.bash_aliases
+|4,50,3,33,1576373352,"~/.bash_aliases"
+'3  47  0  ~/.bashrc
+|4,51,47,0,1576373187,"~/.bashrc"
+'4  47  0  ~/.bashrc
+|4,52,47,0,1576373187,"~/.bashrc"
+'5  1  0  ~/.taskrc
+|4,53,1,0,1576373057,"~/.taskrc"
+'6  1  0  ~/.profile
+|4,54,1,0,1576372927,"~/.profile"
+'7  1  0  ~/.inputrc
+|4,55,1,0,1576372817,"~/.inputrc"
+'8  2  78  ~/.bash_aliases
+|4,56,2,78,1576372702,"~/.bash_aliases"
+'9  2  78  ~/.bash_aliases
+|4,57,2,78,1576372702,"~/.bash_aliases"
 
 # Jumplist (newest first):
+-'  34  0  ~/.config/i3/config
+|4,39,34,0,1576374649,"~/.config/i3/config"
+-'  31  0  ~/.config/i3/config
+|4,39,31,0,1576374645,"~/.config/i3/config"
+-'  28  0  ~/.config/i3/config
+|4,39,28,0,1576374644,"~/.config/i3/config"
+-'  21  0  ~/.config/i3/config
+|4,39,21,0,1576374636,"~/.config/i3/config"
+-'  17  0  ~/.config/i3/config
+|4,39,17,0,1576374635,"~/.config/i3/config"
+-'  13  0  ~/.config/i3/config
+|4,39,13,0,1576374635,"~/.config/i3/config"
+-'  11  0  ~/.config/i3/config
+|4,39,11,0,1576374635,"~/.config/i3/config"
+-'  7  0  ~/.config/i3/config
+|4,39,7,0,1576374635,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1576374634,"~/.config/i3/config"
+-'  37  0  ~/.config/i3/config
+|4,39,37,0,1576374630,"~/.config/i3/config"
+-'  44  0  ~/.config/i3/config
+|4,39,44,0,1576374630,"~/.config/i3/config"
+-'  50  0  ~/.config/i3/config
+|4,39,50,0,1576374630,"~/.config/i3/config"
+-'  56  0  ~/.config/i3/config
+|4,39,56,0,1576374630,"~/.config/i3/config"
+-'  62  0  ~/.config/i3/config
+|4,39,62,0,1576374630,"~/.config/i3/config"
+-'  68  0  ~/.config/i3/config
+|4,39,68,0,1576374629,"~/.config/i3/config"
+-'  71  0  ~/.config/i3/config
+|4,39,71,0,1576374629,"~/.config/i3/config"
+-'  74  0  ~/.config/i3/config
+|4,39,74,0,1576374629,"~/.config/i3/config"
+-'  77  0  ~/.config/i3/config
+|4,39,77,0,1576374629,"~/.config/i3/config"
+-'  82  0  ~/.config/i3/config
+|4,39,82,0,1576374629,"~/.config/i3/config"
+-'  85  0  ~/.config/i3/config
+|4,39,85,0,1576374629,"~/.config/i3/config"
+-'  88  0  ~/.config/i3/config
+|4,39,88,0,1576374628,"~/.config/i3/config"
+-'  91  0  ~/.config/i3/config
+|4,39,91,0,1576374628,"~/.config/i3/config"
+-'  94  0  ~/.config/i3/config
+|4,39,94,0,1576374628,"~/.config/i3/config"
+-'  106  0  ~/.config/i3/config
+|4,39,106,0,1576374628,"~/.config/i3/config"
+-'  118  0  ~/.config/i3/config
+|4,39,118,0,1576374627,"~/.config/i3/config"
+-'  125  0  ~/.config/i3/config
+|4,39,125,0,1576374626,"~/.config/i3/config"
+-'  129  0  ~/.config/i3/config
+|4,39,129,0,1576374626,"~/.config/i3/config"
+-'  138  0  ~/.config/i3/config
+|4,39,138,0,1576374625,"~/.config/i3/config"
+-'  144  0  ~/.config/i3/config
+|4,39,144,0,1576374623,"~/.config/i3/config"
+-'  149  0  ~/.config/i3/config
+|4,39,149,0,1576374621,"~/.config/i3/config"
+-'  151  0  ~/.config/i3/config
+|4,39,151,0,1576374620,"~/.config/i3/config"
+-'  156  0  ~/.config/i3/config
+|4,39,156,0,1576374620,"~/.config/i3/config"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1576374449,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1576374449,"~/.Xresources"
 -'  3  33  ~/.bash_aliases
 |4,39,3,33,1576373352,"~/.bash_aliases"
+-'  3  33  ~/.bash_aliases
+|4,39,3,33,1576373352,"~/.bash_aliases"
+-'  3  33  ~/.bash_aliases
+|4,39,3,33,1576373352,"~/.bash_aliases"
+-'  3  33  ~/.bash_aliases
+|4,39,3,33,1576373352,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1576373203,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1576373203,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1576373203,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
 |4,39,1,0,1576373203,"~/.bash_aliases"
 -'  47  0  ~/.bashrc
 |4,39,47,0,1576373187,"~/.bashrc"
 -'  47  0  ~/.bashrc
 |4,39,47,0,1576373187,"~/.bashrc"
+-'  47  0  ~/.bashrc
+|4,39,47,0,1576373187,"~/.bashrc"
+-'  47  0  ~/.bashrc
+|4,39,47,0,1576373187,"~/.bashrc"
+-'  47  0  ~/.bashrc
+|4,39,47,0,1576373187,"~/.bashrc"
+-'  47  0  ~/.bashrc
+|4,39,47,0,1576373187,"~/.bashrc"
+-'  47  0  ~/.bashrc
+|4,39,47,0,1576373187,"~/.bashrc"
+-'  47  0  ~/.bashrc
+|4,39,47,0,1576373187,"~/.bashrc"
+-'  58  0  ~/.bashrc
+|4,39,58,0,1576373186,"~/.bashrc"
+-'  65  0  ~/.bashrc
+|4,39,65,0,1576373186,"~/.bashrc"
+-'  74  0  ~/.bashrc
+|4,39,74,0,1576373186,"~/.bashrc"
+-'  81  0  ~/.bashrc
+|4,39,81,0,1576373186,"~/.bashrc"
+-'  58  0  ~/.bashrc
+|4,39,58,0,1576373186,"~/.bashrc"
+-'  65  0  ~/.bashrc
+|4,39,65,0,1576373186,"~/.bashrc"
+-'  74  0  ~/.bashrc
+|4,39,74,0,1576373186,"~/.bashrc"
+-'  81  0  ~/.bashrc
+|4,39,81,0,1576373186,"~/.bashrc"
+-'  58  0  ~/.bashrc
+|4,39,58,0,1576373186,"~/.bashrc"
+-'  65  0  ~/.bashrc
+|4,39,65,0,1576373186,"~/.bashrc"
+-'  74  0  ~/.bashrc
+|4,39,74,0,1576373186,"~/.bashrc"
+-'  81  0  ~/.bashrc
+|4,39,81,0,1576373186,"~/.bashrc"
+-'  58  0  ~/.bashrc
+|4,39,58,0,1576373186,"~/.bashrc"
+-'  65  0  ~/.bashrc
+|4,39,65,0,1576373186,"~/.bashrc"
+-'  74  0  ~/.bashrc
+|4,39,74,0,1576373186,"~/.bashrc"
+-'  81  0  ~/.bashrc
+|4,39,81,0,1576373186,"~/.bashrc"
+-'  58  0  ~/.bashrc
+|4,39,58,0,1576373186,"~/.bashrc"
+-'  65  0  ~/.bashrc
+|4,39,65,0,1576373186,"~/.bashrc"
+-'  74  0  ~/.bashrc
+|4,39,74,0,1576373186,"~/.bashrc"
+-'  81  0  ~/.bashrc
+|4,39,81,0,1576373186,"~/.bashrc"
+-'  58  0  ~/.bashrc
+|4,39,58,0,1576373186,"~/.bashrc"
+-'  65  0  ~/.bashrc
+|4,39,65,0,1576373186,"~/.bashrc"
+-'  74  0  ~/.bashrc
+|4,39,74,0,1576373186,"~/.bashrc"
+-'  81  0  ~/.bashrc
+|4,39,81,0,1576373186,"~/.bashrc"
 -'  58  0  ~/.bashrc
 |4,39,58,0,1576373186,"~/.bashrc"
 -'  65  0  ~/.bashrc
@@ -352,168 +492,36 @@ $
 |4,39,94,0,1576373185,"~/.bashrc"
 -'  98  0  ~/.bashrc
 |4,39,98,0,1576373185,"~/.bashrc"
--'  103  0  ~/.bashrc
-|4,39,103,0,1576373184,"~/.bashrc"
--'  107  0  ~/.bashrc
-|4,39,107,0,1576373184,"~/.bashrc"
--'  118  0  ~/.bashrc
-|4,39,118,0,1576373184,"~/.bashrc"
--'  119  0  ~/.bashrc
-|4,39,119,0,1576373184,"~/.bashrc"
--'  103  0  ~/.bashrc
-|4,39,103,0,1576373184,"~/.bashrc"
--'  107  0  ~/.bashrc
-|4,39,107,0,1576373184,"~/.bashrc"
--'  118  0  ~/.bashrc
-|4,39,118,0,1576373184,"~/.bashrc"
--'  119  0  ~/.bashrc
-|4,39,119,0,1576373184,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576373165,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1576373165,"~/.bashrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1576373057,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1576373057,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1576373057,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1576373057,"~/.taskrc"
--'  5  0  ~/.taskrc
-|4,39,5,0,1576373056,"~/.taskrc"
--'  10  0  ~/.taskrc
-|4,39,10,0,1576373056,"~/.taskrc"
--'  12  0  ~/.taskrc
-|4,39,12,0,1576373056,"~/.taskrc"
--'  5  0  ~/.taskrc
-|4,39,5,0,1576373056,"~/.taskrc"
--'  10  0  ~/.taskrc
-|4,39,10,0,1576373056,"~/.taskrc"
--'  12  0  ~/.taskrc
-|4,39,12,0,1576373056,"~/.taskrc"
--'  5  0  ~/.taskrc
-|4,39,5,0,1576373056,"~/.taskrc"
--'  10  0  ~/.taskrc
-|4,39,10,0,1576373056,"~/.taskrc"
--'  12  0  ~/.taskrc
-|4,39,12,0,1576373056,"~/.taskrc"
--'  5  0  ~/.taskrc
-|4,39,5,0,1576373056,"~/.taskrc"
--'  10  0  ~/.taskrc
-|4,39,10,0,1576373056,"~/.taskrc"
--'  12  0  ~/.taskrc
-|4,39,12,0,1576373056,"~/.taskrc"
--'  15  0  ~/.taskrc
-|4,39,15,0,1576373055,"~/.taskrc"
--'  31  0  ~/.taskrc
-|4,39,31,0,1576373055,"~/.taskrc"
--'  15  0  ~/.taskrc
-|4,39,15,0,1576373055,"~/.taskrc"
--'  31  0  ~/.taskrc
-|4,39,31,0,1576373055,"~/.taskrc"
--'  15  0  ~/.taskrc
-|4,39,15,0,1576373055,"~/.taskrc"
--'  31  0  ~/.taskrc
-|4,39,31,0,1576373055,"~/.taskrc"
--'  15  0  ~/.taskrc
-|4,39,15,0,1576373055,"~/.taskrc"
--'  31  0  ~/.taskrc
-|4,39,31,0,1576373055,"~/.taskrc"
--'  1  0  ~/.profile
-|4,39,1,0,1576372927,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1576372927,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1576372927,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1576372927,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1576372927,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1576372927,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1576372927,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1576372927,"~/.profile"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  1  0  ~/.inputrc
-|4,39,1,0,1576372817,"~/.inputrc"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  2  78  ~/.bash_aliases
-|4,39,2,78,1576372702,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1576372556,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1576372556,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1576372556,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1576372556,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1576372556,"~/.bash_aliases"
+-'  86  0  ~/.bashrc
+|4,39,86,0,1576373185,"~/.bashrc"
+-'  89  0  ~/.bashrc
+|4,39,89,0,1576373185,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1576373185,"~/.bashrc"
+-'  98  0  ~/.bashrc
+|4,39,98,0,1576373185,"~/.bashrc"
+-'  86  0  ~/.bashrc
+|4,39,86,0,1576373185,"~/.bashrc"
+-'  89  0  ~/.bashrc
+|4,39,89,0,1576373185,"~/.bashrc"
+-'  94  0  ~/.bashrc
+|4,39,94,0,1576373185,"~/.bashrc"
+-'  98  0  ~/.bashrc
+|4,39,98,0,1576373185,"~/.bashrc"
+-'  86  0  ~/.bashrc
+|4,39,86,0,1576373185,"~/.bashrc"
+-'  89  0  ~/.bashrc
+|4,39,89,0,1576373185,"~/.bashrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/i3/config
+	*	1576374645	0
+	"	34	0
+
+> ~/.Xresources
+	*	1576374448	0
+	"	1	0
 
 > ~/.bash_aliases
 	*	1576373352	0
@@ -2117,13 +2125,3 @@ $
 	+	105	0
 	+	104	14
 	+	98	39
-
-> ~/cluster/html/json/sample.json
-	*	1574719694	0
-	"	1	625
-	.	1	0
-	+	1	0
-
-> ~/cluster/html/json/data.json
-	*	1574718814	0
-	"	1	0

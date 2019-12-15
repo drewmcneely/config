@@ -1,134 +1,3 @@
-vim minority_report.html 
-ls
-rm -rf Streaming-Video-textures-and-Webcam-Feed-with-A-Frame/
-ls
-cd aframe-pointcloud-component/
-ls
-cd examples/
-ls
-cd basic/
-ls
-feh
-ls
-cp ball.png ~/cluster/html/img/
-ls
-cp Sphere.ply ~/cluster/html/
-ls
-cd ~/cluster/html/
-ls
-mkdir ply
-mv Sphere.ply ply/
-ls
-fg
-ls
-ls img/
-fg
-ls
-jobs
-fg
-ls
-cd ply/
-ls
-vim Sphere.ply 
-cd ~/cluster/
-ls
-ls output/
-cd html/
-ls
-mv angular_momentum.ply ply/
-fg
-ls
-cd aframe-pointcloud-component/examples/basic/
-ls
-feh
-cp disc.png ../../../img/
-cd ../../..
-ls
-fg
-ls ply/
-fg
-ls
-firefox point_cloud.html 
-ls
-fg
-ls
-cd ply/
-ls
-fg
-vim angular_momentum.ply 
-cp angular_momentum.ply angular_momentum_small.ply 
-vim angular_momentum
-vim angular_momentum_small.ply 
-ls
-fg
-bg
-ls
-rm angular_momentum*
-ls
-cp angular_momentum.ply head_angular_momentum.ply
-vim head_angular_momentum.ply 
-ls
-cd ..
-ls
-vim point_cloud.html 
-firefox point_cloud.html 
-fg
-firefox point_cloud.html 
-ls
-jobs
-fg
-ls
-fg
-ls
-jobs
-python3 -m http.server &
-ls
-firefox minority_report.html 
-ls
-vim minority_report.html 
-firefox minority_report.html 
-fg
-ls
-fg
-ls
-vim minority_report.html 
-ls
-cd aframe-pointcloud-component/
-ls
-cd examples/basic/
-ls
-cd ..
-ls
-cp basic/ ../../
-cp -r basic/ ../../
-cd ../..
-ls
-mv basic/ point_cloud_example
-ls
-fg
-vim minority_report.html 
-ls
-ls ply/
-fg
-ls
-cd ply/
-ls
-vim Sphere.ply 
-ls
-fg
-ls
-fg
-ls
-fg
-ls
-cd ../img/
-ls
-feh disc.png 
-fg
-ls
-cd ..
-ls
-rm minority_report.html 
 ls
 git clone https://github.com/zcanter/aframe-scatterplot.git
 ls
@@ -1997,4 +1866,135 @@ ls -a
 rm -rf .config-files-git-repo/
 git init --bare ~/.config-file-repo
 fg
+exit
+config status
+config config --local status.showUntrackedFiles no
+config status
+ls -a
+config add .bash_aliases .bashrc .gitconfig 
+view .inputrc 
+config add .inputrc
+view .profile 
+config add .profile 
+sudo apt-get remove taskwarrior 
+ls -a
+sudo apt-get purge taskwarrior
+ls
+ls -a
+vim .taskrc 
+ls
+sudo apt-get purge taskwarrior
+sudo apt autoremove
+ls -a
+rm -rf .task
+rm .taskrc 
+ls
+ls -a
+config status
+clean
+vim .bashrc 
+vim .bash_aliases 
+ls
+cat .bash_aliases 
+source .bash_aliases 
+vimclean
+ls -a
+cat .swo 
+cat .swp 
+ls
+ls -a
+config status
+rm .nikolay.txt.swp 
+config add .bash_history .bash_logout .cgobanrc 
+cat .selected_editor 
+select-editor
+cat .selected_editor
+man mcedit 
+sudo apt-get purge mcedit
+ls -a
+sudo apt-get purge nano
+ls -a
+rm -rf .nano/
+ls
+ls -a
+config status
+config add .selected_editor .vim*
+ls
+ls -a
+config add .Xresources 
+config add .xscreensaver 
+cd .config
+ls
+cd ..
+config add .config
+config status
+config rm .config
+config remove -r .config
+man git-rm
+config rm -r .config
+ls
+cd .config
+ls
+config add git/ i3/
+cd git/
+ls
+cat ignore 
+cd ~
+ls
+git status
+config status
+config rm -r .config/
+config rm -rf .config/
+ls
+config status
+cd .config
+ls
+ls -a
+ls
+cd i3
+config status
+config commit -m "Initial commit"
+exit
+ls
+cd .config
+ls
+config status
+cd ..
+ls -a
+vim .Xresources 
+ls
+cd .config
+config status
+config ls
+ls
+config add i3/
+config status
+cd i3/
+ls
+vim config 
+cd ~/ls
+cd ~
+ls
+cd dl/
+ls
+cd /
+ls
+ls -a
+cd ~/.mozilla/
+ls
+cd firefox/
+ls
+cd ~
+ls
+cd Downloads/
+ls
+unzip config.zip 
+ls
+ls -a
+cd ~
+ls
+rm -rf .config/
+mv Downloads/.config/ .
+ls Downloads/
+rm -rf Downloads/
 exit
