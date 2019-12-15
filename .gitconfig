@@ -1,0 +1,5 @@
+[user]
+	name = drew
+	email = drewmcneely@email.arizona.edu
+[core]
+	excludesfile = /home/drew/.config/git/ignore
