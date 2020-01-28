@@ -11,4 +11,5 @@ BackupDirectory="box:backup/t420/$BackupDate"
 ExcludeFrom="$HOME/etc/backup.exclude"
 LogPath="$HOME/var/backup.log"
 
-rclone -P sync --exclude-from $ExcludeFrom -l $SourceDirectory $DestinationDirectory --backup-dir $BackupDirectory 2> $LogPath
+echo "I have been successfully called on $(date)" >> $LogPath
+rclone -P sync --exclude-from $ExcludeFrom -l $SourceDirectory $DestinationDirectory --backup-dir $BackupDirectory 2>> $LogPath

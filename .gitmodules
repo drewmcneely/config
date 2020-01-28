@@ -1,0 +1,3 @@
+[submodule ".vim/pack/drew/start/vim-tmux-navigator"]
+	path = .vim/pack/drew/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git

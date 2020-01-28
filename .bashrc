@@ -117,3 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+export PYTHONPATH="/home/drew/lib/python3/"
