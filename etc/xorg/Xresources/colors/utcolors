@@ -1,0 +1,18 @@
+! The following are hex codes for the official color pallete of the University of Texas at Austin.
+
+! Primary palette
+
+#define	UT_Burnt_Orange	#bf5700
+#define	UT_Dark_Gray	#333f48
+#define	UT_White		#ffffff
+
+! Secondary palette
+
+#define	UT_Orange		#f8971f
+#define	UT_Yellow		#ffd600
+#define	UT_Light_Green	#a6cd57
+#define	UT_Green		#579d42
+#define	UT_Cyan			#00a9b7
+#define	UT_Blue			#005f86
+#define	UT_Light_Blue	#9cadb7
+#define	UT_Light_Gray	#d6d2c4
