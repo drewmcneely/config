@@ -2,12 +2,13 @@
 set nocompatible
 
 " Flattened Dark Colorscheme:
-colorscheme flattened_dark
+colorscheme desert
 
 " enable syntax and plugins (for netrw)
 syntax on
 filetype indent plugin on
 
+set exrc
 
 " VIMWIKI MUST HAVE OPTIONS:
 " Switch from unsaved buffers in window

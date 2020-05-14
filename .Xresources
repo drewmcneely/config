@@ -1,59 +1,67 @@
-#define S_base03        #002b36
-#define S_base02        #073642
-#define S_base01        #586e75
-#define S_base00        #657b83
-#define S_base0         #839496
-#define S_base1         #93a1a1
-#define S_base2         #eee8d5
-#define S_base3         #fdf6e3
+!! Colors
+#define UT_burntorange  #bf5700
+#define UT_gray         #333f48
+#define UT_white        #ffffff
+#define UT_lightorange  #f8971f
+#define UT_yellow       #ffd600
+#define UT_lime         #a6cd57
+#define UT_green        #579d42
+#define UT_cyan         #00a9b7
+#define UT_blue         #005f86
+#define UT_lightgray    #9cadb7
+#define UT_cream        #d6d2c4
 
-*background:            S_base03
-*foreground:            S_base0
-*fadeColor:             S_base03
-*cursorColor:           S_base1
-*pointerColorBackground:S_base01
-*pointerColorForeground:S_base1
 
-#define S_yellow        #b58900
-#define S_orange        #cb4b16
-#define S_red           #dc322f
-#define S_magenta       #d33682
-#define S_violet        #6c71c4
-#define S_blue          #268bd2
-#define S_cyan          #2aa198
-#define S_green         #859900
+*foreground:            UT_cream
+*background:            UT_gray
+*cursorColor:           UT_burntorange
 
-!! black dark/light
-*color0:                S_base02
-*color8:                S_base03
+! black dark/light
+*color0:                UT_gray
+*color8:                UT_blue
 
-!! red dark/light
-*color1:                S_red
-*color9:                S_orange
+! red dark/light
+*color1:                UT_burntorange
+*color9:                UT_lightorange
 
-!! green dark/light
-*color2:                S_green
-*color10:               S_base01
+! green dark/light
+*color2:                UT_green
+*color10:               UT_lime
 
-!! yellow dark/light
-*color3:                S_yellow
-*color11:               S_base00
+! yellow dark/light
+*color3:                UT_yellow
+*color11:               UT_cream
 
-!! blue dark/light
-*color4:                S_blue
-*color12:               S_base0
+! blue dark/light
+*color4:                UT_blue
+*color12:               UT_cyan
 
 !! magenta dark/light
-*color5:                S_magenta
-*color13:               S_violet
+*color5:                UT_burntorange
+*color13:               UT_orange
 
-!! cyan dark/light
-*color6:                S_cyan
-*color14:               S_base1
+! cyan dark/light
+*color6:                UT_cyan
+*color14:               UT_lightgray
 
-!! white dark/light
-*color7:                S_base2
-*color15:               S_base3
+! white dark/light
+*color7:                UT_cream
+*color15:               UT_white
 
-
-rxvt*font:				*-fixed-*-*-*-25-*
+!! URxvt Appearance
+URxvt.font:				xft:mono:medium:size=12
+*.boldFont:             xft:mono:style=Bold:size=12
+*.italicFont:           xft:mono:style=Italic:size=12
+*.boldItalicFont:       xft:mono:style=Bold Italic:size=12
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 10
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false

@@ -1,15 +1,17 @@
 #!/bin/bash
-ConfigFile="$HOME/etc/backup.conf"
+ConfigFile="/home/drew/etc/backup.conf"
 source $ConfigFile
+RcloneConfig="/home/drew/.config/rclone/rclone.conf"
 
 BackupDate=`date +%F_%T`
 YesterdaysDate=`date -d "now-1days" "+%Y-%m-%d"`
 
-SourceDirectory=$HOME
-DestinationDirectory="box:backup/t420/home/"
-BackupDirectory="box:backup/t420/$BackupDate"
-ExcludeFrom="$HOME/etc/backup.exclude"
-LogPath="$HOME/var/backup.log"
+SourceDirectory="/home/drew"
+DestinationDirectory="utbox:backup/t420/home/"
+BackupDirectory="utbox:backup/t420/$BackupDate"
+ExcludeFrom="/home/drew/etc/backup.exclude"
+LogPath="/home/drew/var/backup.log"
+ErrPath="/home/drew/var/backup.err"
 
 echo "I have been successfully called on $(date)" >> $LogPath
-rclone -P sync --exclude-from $ExcludeFrom -l $SourceDirectory $DestinationDirectory --backup-dir $BackupDirectory 2>> $LogPath
+rclone -P sync --config=$RcloneConfig --exclude-from $ExcludeFrom -l $SourceDirectory $DestinationDirectory --backup-dir $BackupDirectory >>$LogPath 2>$ErrPath
